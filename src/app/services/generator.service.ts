@@ -83,7 +83,7 @@ export class GeneratorService {
   clerics: string[]= [
     'Animate Dead', 'Blindness', 'Command', 'Create Sustenance', 'Cure Disease', 'Cure Poison', 'Cure Wounds',
     'Darkness', 'Dispel Magic', 'Flame Strike', 'Light', 'Prayer', 'Regeneration', 'Remove Curse', 'Remove Fear',
-    'Restoration', 'Revive', 'Sanctuary', 'Tongues', 'Resurrect', 'Essential Salts'  ]
+    'Restoration', 'Revive', 'Sanctuary', 'Tongues', 'Resurrect', 'Essential Salts', 'Remove Mutation'  ]
   cleric = new Subject
 
   druids: string[]= [
@@ -100,7 +100,7 @@ export class GeneratorService {
   wizard = new Subject
 
   psionics: string[]= [
-    'Disorient', 'Levitaion', 'Mental Blast', 'Mind Control', 'Precognition',
+    'Disorient', 'Levitation', 'Mental Blast', 'Mind Control', 'Precognition',
     'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy']
   psionic = new Subject
 
