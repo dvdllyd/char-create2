@@ -104,6 +104,19 @@ export class GeneratorService {
     'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy']
   psionic = new Subject
 
+  gandcs: string[]= [
+    'Demonic', 'Midget', 'Goblin Blood', 'Giant Blood', 'Fairy Blood', 'Demigod',
+    'Maniac', 'Greed', 'Melancholy', 'Amore', 'Loyalty', 'Love',
+    'Deaf', 'Stupid', 'Sickly', 'Syphilis', 'Eagle-Eye', 'Acute Hearing',
+    'Outlaw', 'Poor', 'Bastard', 'Rage!', 'Relic', 'Artifact',
+    'Leprosy', 'Hideous', 'Peg-Leg', 'Rich', 'Heirloom', 'Filthy', 'Rich',
+    'Craven', 'Coward', 'Fear (Subject)', 'Iron Will', 'Brave', 'Valorous',
+    'Enemy', 'Debt of Honor', 'Side-Kick', 'Favor', 'Patron',
+    'Kin Slayer', 'Blackguard', 'Cur', 'Vendetta', 'Likeable', 'Commanding Voice',
+    'Liar', 'Drunkard', 'Cad', 'Ferocious', 'Lucky', 'Beautiful Voice', 'Mute', 'Schwachling',
+    'Fool', 'Rugged', 'Comely', 'Fleet of Foot', 'Slave', ]
+  gandc = new Subject
+
   constructor() { }
 
   getRandomRace() {
@@ -206,4 +219,8 @@ export class GeneratorService {
     this.psionic.next(randomPsionic)
   }
 
+  getRandomGandc() {
+    const randomGandc = this.gandcs[Math.floor(Math.random()*this.gandcs.length)]
+    this.gandc.next(randomGandc)
+  }
 }

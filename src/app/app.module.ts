@@ -22,6 +22,7 @@ import { MutationsComponent } from './special-gen/mutations/mutations.component'
 import { AnimalCompanionComponent } from './special-gen/animal-companion/animal-companion.component';
 import { RobotComponent } from './special-gen/robot/robot.component';
 import { CharacterComponent } from './character/character.component';
+import { GandcGenComponent } from './gandc-gen/gandc-gen.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { CharacterComponent } from './character/character.component';
     MutationsComponent,
     AnimalCompanionComponent,
     RobotComponent,
-    CharacterComponent
+    CharacterComponent,
+    GandcGenComponent
   ],
   imports: [
     BrowserModule,

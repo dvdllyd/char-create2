@@ -70,6 +70,9 @@ export class CharacterComponent implements OnInit, OnDestroy {
   psionicSub: Subscription
   psionic
 
+  gandcSub: Subscription
+  gandc
+
   constructor(private gService: GeneratorService) { }
 
   ngOnInit(): void {
@@ -93,6 +96,7 @@ export class CharacterComponent implements OnInit, OnDestroy {
     this.druidSub = this.gService.druid.subscribe((druid) => {this.druid = druid})
     this.wizardSub = this.gService.wizard.subscribe((wizard) => {this.wizard = wizard})
     this.psionicSub = this.gService.psionic.subscribe((psionic) => {this.psionic = psionic})
+    this.gandcSub = this.gService.gandc.subscribe((gandc) => {this.gandc = gandc})
   }
 
   ngOnDestroy() {
@@ -116,6 +120,7 @@ export class CharacterComponent implements OnInit, OnDestroy {
     this.druidSub.unsubscribe()
     this.wizardSub.unsubscribe()
     this.psionicSub.unsubscribe()
+    this.gandcSub.unsubscribe()
 
   }
 
