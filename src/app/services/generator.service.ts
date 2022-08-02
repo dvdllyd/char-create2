@@ -90,7 +90,7 @@ export class GeneratorService {
     'Animal Friendship', 'Animal Summoning', 'Barkskin', 'Call Lightning', 'Commune w/ Nature', 'Control Winds',
     'Cure Wounds', 'Darkness', 'Entangle', 'Feather Fall', 'Pass w/o Trace', 'Plant Door', 'Plant Growth',
     'Speak w/ Animals', 'Stone Shape', 'Transmute Rock to Mud', 'Tree Shape', 'Wall of Thorns', 'Warp Wood',
-    'Water Breathing', 'Cure Poison', 'Delay Poison', 'Detect Poison'  ]
+    'Water Breathing', 'Cure Poison', 'Delay Poison', 'Detect Poison', 'Reincarnate'  ]
   druid = new Subject
 
   wizards: string[]= [
