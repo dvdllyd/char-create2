@@ -100,8 +100,8 @@ export class GeneratorService {
   wizard = new Subject
 
   psionics: string[]= [
-    'Disorient', 'Levitation', 'Mental Blast', 'Mind Control', 'Precognition',
-    'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy']
+    'Disorient', 'Levitation', 'Mental Blast', 'Mind Control', 'Precognition', 'Detect Minds',
+    'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy', 'Detect Psionics']
   psionic = new Subject
 
   gandcs: string[]= [
