@@ -90,18 +90,19 @@ export class GeneratorService {
     'Animal Friendship', 'Animal Summoning', 'Barkskin', 'Call Lightning', 'Commune w/ Nature', 'Control Winds',
     'Cure Wounds', 'Darkness', 'Entangle', 'Feather Fall', 'Pass w/o Trace', 'Plant Door', 'Plant Growth',
     'Speak w/ Animals', 'Stone Shape', 'Transmute Rock to Mud', 'Tree Shape', 'Wall of Thorns', 'Warp Wood',
-    'Water Breathing', 'Cure Poison', 'Delay Poison', 'Detect Poison', 'Reincarnate'  ]
+    'Water Breathing', 'Cure Poison', 'Delay Poison', 'Detect Poison', 'Reincarnate', 'Dispel Magic'  ]
   druid = new Subject
 
   wizards: string[]= [
     'Charm', 'Darkness', 'Detect Magic', 'Dispel Magic', 'Enlarge', 'Feather Fall', 'Fireball',
     'Floating Disk', 'Identify', 'Knock', 'Light', 'Lightning Bolt', 'Mage Armor', 'Sleep', 'Spider Climb',
-    'Unseen Servant', 'Wall of Force', 'Web', 'Crushing Fist of Spite', 'Prismatic Spray']
+    'Unseen Servant', 'Wall of Force', 'Crushing Fist of Spite', 'Prismatic Spray']
   wizard = new Subject
 
   psionics: string[]= [
     'Disorient', 'Levitation', 'Mental Blast', 'Mind Control', 'Precognition', 'Detect Minds',
-    'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy', 'Detect Psionics']
+    'Psychometry', 'Pyrokinesis', 'Remote Sensing', 'Telekinesis', 'Telepathy', 'Detect Psionics',
+    'Negate Psionics']
   psionic = new Subject
 
   gandcs: string[]= [
