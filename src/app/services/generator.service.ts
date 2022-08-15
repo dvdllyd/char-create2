@@ -48,7 +48,7 @@ export class GeneratorService {
   armormat = new Subject
 
   armors: string[]= [
-    'Light Armor(AC12, MV9)', 'Medium Armor(AC14, MV6)', 'Heavy Armor(AC16, MV3)',]
+    'Light Armor(AC 12, MV 9)', 'Medium Armor(AC 14, MV 6)', 'Heavy Armor(AC1 6, MV 3)',]
   armor = new Subject
 
   gps: string[]= [
@@ -65,11 +65,11 @@ export class GeneratorService {
   weapmat = new Subject
 
   hands: string[]= [
-    'One-Handed(1D)', 'One/Two-Handed(1D/2D, -1MV)', 'Two-Handed(2D, -1MV)']
+    'One-Handed(1D)', 'One/Two-Handed(1D/2D, -1 MV)', 'Two-Handed(2D, -1 MV)']
   hand = new Subject
 
   shields: string[]= [
-    'No Shield', 'Small Shield', 'Large Shield']
+    'No Shield', 'Small Shield(+1 AC)', 'Large Shield(+2 AC, -1 MV)']
   shield = new Subject
 
   shieldmats: string[]= [
